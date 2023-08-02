@@ -1,0 +1,19 @@
+.container {
+  min-width: 500px;
+}
+
+.container ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container ul li:hover {
+  transform: scale(1.1);
+  color: rgb(104, 48, 215);
+  transition: all ease-in-out 300ms;
+}
+
+.container ul li a {
+  font-size: 1.25rem;
+}
