@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className={headerStyles.container}>
       <h1 className={headerStyles.title}>
-        iOT <span>Expo</span>
+        IoT <span>Expo</span>
       </h1>
       <Nav />
     </header>
