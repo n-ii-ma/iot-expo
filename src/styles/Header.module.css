@@ -3,12 +3,15 @@
   height: 15vh;
   background: linear-gradient(
     90deg,
-    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.9),
     rgba(1, 158, 255, 0.9)
   );
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 100;
   padding: 0 10em;
 }
 
