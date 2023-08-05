@@ -10,7 +10,7 @@
 
 .container ul li:hover {
   transform: scale(1.1);
-  color: rgb(0, 217, 255);
+  color: var(--secondary-color);
   transition: all ease-in-out 300ms;
 }
 
