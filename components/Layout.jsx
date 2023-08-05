@@ -2,6 +2,7 @@ import { Roboto_Flex } from "next/font/google";
 
 import Meta from "./Meta";
 import Header from "./Header";
+import Footer from "./Footer";
 
 const roboto = Roboto_Flex({
   subsets: ["latin"],
@@ -15,6 +16,7 @@ const Layout = ({ children }) => {
       <div className={roboto.className}>
         <Header />
         <main>{children}</main>
+        <Footer />
       </div>
     </>
   );
