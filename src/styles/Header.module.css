@@ -15,12 +15,12 @@
 .title {
   font-weight: 400;
   font-size: 3rem;
-  color: rgb(0, 217, 255);
+  color: var(--secondary-color);
 }
 
 .title span {
   font-weight: 200;
   font-size: 2.5rem;
   font-style: italic;
-  color: white;
+  color: var(--primary-color);
 }
