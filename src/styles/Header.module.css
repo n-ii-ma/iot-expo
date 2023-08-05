@@ -3,8 +3,8 @@
   height: 15vh;
   background: linear-gradient(
     90deg,
-    rgba(88, 94, 111, 0.8),
-    rgba(1, 158, 255, 0.2)
+    rgba(0, 0, 0, 0.8),
+    rgba(1, 158, 255, 0.9)
   );
   display: flex;
   align-items: center;
@@ -15,11 +15,12 @@
 .title {
   font-weight: 400;
   font-size: 3rem;
+  color: rgb(0, 217, 255);
 }
 
 .title span {
   font-weight: 200;
   font-size: 2.5rem;
   font-style: italic;
-  color: rgb(221, 233, 233);
+  color: white;
 }
