@@ -27,10 +27,6 @@
   .container {
     min-width: 325px;
   }
-
-  .container ul li a {
-    font-size: 1rem;
-  }
 }
 
 /* Tablet and Smaller Desktop */
