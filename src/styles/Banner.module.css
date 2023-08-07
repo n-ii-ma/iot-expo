@@ -51,7 +51,11 @@
   }
 
   .titleContainer h1 {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
+  }
+
+  .titleContainer h3 {
+    font-size: 1rem;
   }
 }
 

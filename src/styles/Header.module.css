@@ -41,11 +41,11 @@
   }
 
   .title {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 
   .title span {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 }
 
@@ -59,10 +59,10 @@
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
   .title {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
   }
 
   .title span {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 }
