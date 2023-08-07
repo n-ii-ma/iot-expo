@@ -10,12 +10,13 @@
 
 .container ul li {
   color: var(--primary-color);
+  transition: var(--hover-animation);
 }
 
 .container ul li:hover {
   transform: scale(1.1);
   color: var(--secondary-color);
-  transition: all ease-in-out 300ms;
+  transition: var(--hover-animation);
 }
 
 .container ul li a {

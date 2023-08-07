@@ -20,11 +20,12 @@
   font-size: 3rem;
   color: var(--secondary-color);
   text-align: center;
+  transition: var(--hover-animation);
 }
 
 .title:hover {
   transform: scale(1.1);
-  transition: all ease-in-out 300ms;
+  transition: var(--hover-animation);
 }
 
 .title span {
