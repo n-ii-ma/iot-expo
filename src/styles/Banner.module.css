@@ -55,6 +55,15 @@
   }
 }
 
+/* Landscape Mobile */
+@media (max-width: 700px) and (orientation: landscape) {
+  .titleContainer {
+    width: 60%;
+    left: 2em;
+    margin: 0;
+  }
+}
+
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
   .titleContainer {
