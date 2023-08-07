@@ -5,13 +5,11 @@ import footerStyles from "@/styles/Footer.module.css";
 
 const Footer = () => (
   <footer className={footerStyles.container}>
-    <section>
-      <h3 className={footerStyles.title}>
+    <section className={footerStyles.titleContainer}>
+      <h3>
         IoT <span>Expo</span>
       </h3>
-      <p>
-        Copyright &copy; {new Date().getFullYear()}
-      </p>
+      <p>Copyright &copy; {new Date().getFullYear()}</p>
     </section>
     <section className={footerStyles.navContainer}>
       <h3>About Us</h3>
@@ -29,9 +27,11 @@ const Footer = () => (
         <Link href="/terms">Terms & conditions</Link>
       </section>
     </section>
-    <section className={footerStyles.navContainer}>
+    <section
+      className={`${footerStyles.navContainer} ${footerStyles.socialContainer}`}
+    >
       <h3>Follow Us</h3>
-      <div className={footerStyles.socialContainer}>
+      <div className={footerStyles.icons}>
         <a
           href="https://instagram.com"
           target="_blank"
@@ -39,7 +39,12 @@ const Footer = () => (
         >
           <BsInstagram size="1.5em" color="var(--primary-color)" />
         </a>
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://twitter.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ margin: "0 1em" }}
+        >
           <BsTwitter size="1.5em" color="var(--primary-color)" />
         </a>
         <a
