@@ -2,10 +2,10 @@
   display: flex;
   align-items: center;
   width: "100%";
-  height: 85vh;
+  height: 90vh;
   position: relative;
   overflow: hidden;
-  margin-top: 15vh;
+  margin-top: 10vh;
 }
 
 .container img {
@@ -43,6 +43,11 @@
 
 /* Mobile */
 @media (max-width: 700px) {
+  .container {
+    height: 85vh;
+    margin-top: 15vh;
+  }
+
   .titleContainer {
     width: 90%;
     left: 0;
