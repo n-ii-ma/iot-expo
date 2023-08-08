@@ -23,11 +23,6 @@
   transition: var(--hover-animation);
 }
 
-.title:hover {
-  transform: scale(1.1);
-  transition: var(--hover-animation);
-}
-
 .title span {
   font-weight: 200;
   font-size: 2.5rem;
@@ -65,5 +60,13 @@
 
   .title span {
     font-size: 1.75rem;
+  }
+}
+
+/* Hover */
+@media (hover: hover) {
+  .title:hover {
+    transform: scale(1.1);
+    transition: var(--hover-animation);
   }
 }

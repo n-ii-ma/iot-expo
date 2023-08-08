@@ -13,12 +13,6 @@
   transition: var(--hover-animation);
 }
 
-.container ul li:hover {
-  transform: scale(1.1);
-  color: var(--secondary-color);
-  transition: var(--hover-animation);
-}
-
 .container ul li a {
   font-size: 1.25rem;
 }
@@ -34,5 +28,14 @@
 @media (min-width: 701px) and (max-width: 1120px) {
   .container {
     min-width: 425px;
+  }
+}
+
+/* Hover */
+@media (hover: hover) {
+  .container ul li:hover {
+    transform: scale(1.1);
+    color: var(--secondary-color);
+    transition: var(--hover-animation);
   }
 }

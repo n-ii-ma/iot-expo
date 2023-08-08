@@ -70,7 +70,10 @@
   transition: var(--hover-animation);
 }
 
-.inputContainer button:hover {
-  background-color: var(--primary-color);
-  transition: var(--hover-animation);
+/* Hover */
+@media (hover: hover) {
+  .inputContainer button:hover {
+    background-color: var(--primary-color);
+    transition: var(--hover-animation);
+  }
 }
