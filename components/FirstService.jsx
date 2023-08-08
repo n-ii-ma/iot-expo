@@ -4,7 +4,7 @@ import firstServiceStyles from "@/styles/FirstService.module.css";
 
 const FirstService = () => {
   return (
-    <section className={firstServiceStyles.container}>
+    <section id="services" className={firstServiceStyles.container}>
       <figure>
         <Image
           src="/firstService.svg"
