@@ -2,7 +2,7 @@
   width: 85%;
   min-height: 75vh;
   display: flex;
-  margin: 5em auto;
+  margin: 3em auto;
 }
 
 .container figure {
@@ -65,7 +65,6 @@
 @media (max-width: 1000px) {
   .container {
     flex-direction: column;
-    margin: 3em auto;
   }
 
   .container figure {
