@@ -35,7 +35,7 @@ const FirstService = () => {
           </li>
           <li
             className={firstServiceStyles.listItems}
-            style={{ margin: "2em 0" }}
+            style={{ margin: "1.5em 0" }}
           >
             <p>
               Enterprise:{" "}
