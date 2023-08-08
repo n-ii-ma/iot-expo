@@ -1,5 +1,6 @@
 import Banner from "../../components/Banner";
 import FirstService from "../../components/FirstService";
+import SecondService from "../../components/SecondService";
 import Newsletter from "../../components/Newsletter";
 
 export const Home = () => {
@@ -7,6 +8,7 @@ export const Home = () => {
     <div>
       <Banner />
       <FirstService />
+      <SecondService />
       <Newsletter />
     </div>
   );
