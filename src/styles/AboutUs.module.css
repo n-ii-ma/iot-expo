@@ -43,10 +43,47 @@
 
 /* Mobile */
 @media (max-width: 700px) {
+  .container {
+    height: 85vh;
+    margin-top: 15vh;
+  }
+
+  .container img {
+    object-position: -13em;
+  }
+
+  .container article {
+    width: 85%;
+    padding: 1em;
+  }
+
+  .container article h1 {
+    font-size: 2rem;
+  }
+
+  .container article p {
+    font-size: 1rem;
+  }
 }
 
 /* Landscape Mobile */
 @media (max-width: 700px) and (orientation: landscape) {
+  .container img {
+    object-position: 0;
+  }
+
+  .container article {
+    width: 85%;
+    padding: 1em;
+  }
+
+  .container article h1 {
+    font-size: 2rem;
+  }
+
+  .container article p {
+    font-size: 1rem;
+  }
 }
 
 /* Tablet and Smaller Desktop */
