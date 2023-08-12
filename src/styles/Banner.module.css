@@ -1,6 +1,7 @@
 .container {
   width: 100%;
-  height: 90vh;
+  min-height: 90vh;
+  height: fit-content;
   display: flex;
   align-items: center;
   position: relative;
@@ -12,15 +13,16 @@
   object-fit: cover;
   filter: blur(1.5px);
   transform: scale(1.01);
+  z-index: 1;
 }
 
 .titleContainer {
   width: 40%;
-  position: absolute;
-  left: 2em;
   background-color: rgba(0, 0, 0, 0.65);
   padding: 1em;
+  margin-left: 2em;
   border-radius: 1.5em;
+  z-index: 2;
 }
 
 .titleContainer h1 {
@@ -44,14 +46,12 @@
 /* Mobile */
 @media (max-width: 700px) {
   .container {
-    height: 85vh;
+    min-height: 85vh;
     margin-top: 15vh;
   }
 
   .titleContainer {
     width: 90%;
-    left: 0;
-    right: 0;
     margin: 0 auto;
   }
 
@@ -64,8 +64,7 @@
 @media (max-width: 700px) and (orientation: landscape) {
   .titleContainer {
     width: 60%;
-    left: 2em;
-    margin: 0;
+    margin-left: 2em;
   }
 }
 
