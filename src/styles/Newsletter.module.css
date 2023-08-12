@@ -63,7 +63,6 @@
   border: 0;
   color: black;
   font-size: 1rem;
-  transition: all 200ms ease;
   cursor: pointer;
   transition: var(--hover-animation);
 }
