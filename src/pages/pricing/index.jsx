@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import Meta from "../../../components/Meta";
+
 import pricingStyles from "@/styles/Pricing.module.css";
 
 const DATA = [
@@ -47,8 +49,9 @@ const DATA = [
   },
 ];
 
-const Pricing = () => {
-  return (
+const Pricing = () => (
+  <>
+    <Meta title="Pricing" description="Pricing plans for doing Iot projects" />
     <section className={pricingStyles.container}>
       <Image src="/pricing.jpg" fill alt="Smart city at night" />
       <section className={pricingStyles.priceBox}>
@@ -84,7 +87,7 @@ const Pricing = () => {
         ))}
       </section>
     </section>
-  );
-};
+  </>
+);
 
 export default Pricing;
