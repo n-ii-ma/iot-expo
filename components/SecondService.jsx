@@ -49,7 +49,7 @@ const SecondService = () => (
     </article>
     <figure>
       <Image
-        src="/secondService.svg"
+        src="/images/secondService.svg"
         fill
         alt="Isometric flowchart with artificial intelligence technologies"
       />

@@ -9,7 +9,7 @@ const Pricing = ({ prices }) => (
   <>
     <Meta title="Pricing" description="Pricing plans for doing Iot projects" />
     <section className={pricingStyles.container}>
-      <Image src="/pricing.jpg" fill alt="Smart city at night" />
+      <Image src="/images/pricing.jpg" fill alt="Smart city at night" />
       <section className={pricingStyles.priceBox}>
         {prices?.length &&
           prices.map((plan) => (

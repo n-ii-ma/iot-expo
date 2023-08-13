@@ -6,7 +6,7 @@ const FirstService = () => (
   <section id="services" className={firstServiceStyles.container}>
     <figure>
       <Image
-        src="/firstService.svg"
+        src="/images/firstService.svg"
         fill
         alt="Isometric household appliances with connectivity"
       />
