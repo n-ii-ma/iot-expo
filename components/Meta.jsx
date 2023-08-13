@@ -8,14 +8,14 @@ const Meta = ({ keywords, description, title }) => (
     <meta name="robots" content="all" />
     <meta charSet="utf-8" />
     <link rel="icon" href="/favicon.ico" />
-    <title>{title}</title>
+    <title>{`IoT Expo | ${title}`}</title>
     meta
   </Head>
 );
 
 Meta.defaultProps = {
   title: "IoT Expo",
-  keywords: "internet of things, iot",
+  keywords: "internet of things, iot, ai, 5g, tech, technology, smart, robots",
   description: "Explore Everything About IoT",
 };
 
