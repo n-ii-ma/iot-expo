@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import Meta from "../../../components/Meta";
-import api from "../../../config/axios.config";
+import priceData from "../../../data";
 
 import pricingStyles from "@/styles/Pricing.module.css";
 
@@ -48,20 +48,11 @@ const Pricing = ({ prices }) => (
 );
 
 export const getStaticProps = async () => {
-  try {
-    const response = await api.get("/prices");
-
-    return {
-      props: {
-        prices: response.data,
-      },
-    };
-  } catch (error) {
-    // Return 404 page
-    return {
-      notFound: true,
-    };
-  }
+  return {
+    props: {
+      prices: priceData,
+    },
+  };
 };
 
 export default Pricing;
