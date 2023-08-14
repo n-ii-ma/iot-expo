@@ -8,10 +8,7 @@ import Newsletter from "../../components/Newsletter";
 export const Home = () => {
   return (
     <>
-      <Meta
-        title="Home"
-        description="Homepage of the site highligthing our various services regarding doing IoT projects"
-      />
+      <Meta title="Home" />
       <Banner />
       <FirstService />
       <SecondService />
