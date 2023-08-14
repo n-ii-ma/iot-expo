@@ -7,6 +7,7 @@ const Banner = () => (
     <Image
       src="/images/banner.jpg"
       fill
+      priority
       alt="Abstract Internet of Things Picture"
     />
     <div className={bannerStyles.titleContainer}>
