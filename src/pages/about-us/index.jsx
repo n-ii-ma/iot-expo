@@ -14,14 +14,14 @@ const AboutUs = () => (
           We strive to turn your dreams into <span>reality</span>
         </h1>
         <p>
-          Here at <span>IoT</span> Expo, we deliver a top-notch quality in
-          completing your projects both in personal and enterpise environments.
-          <br />
-          <p style={{ marginTop: "1em" }}>
-            Our team consists of experienced experts in the field of IoT who
-            will accomplish any of your complex project requirements.
-          </p>
-          <br />
+          Here at IoT Expo, we deliver a top-notch quality in completing your
+          projects both in personal and enterpise environments.
+        </p>
+        <p style={{ margin: "1em 0" }}>
+          Our team consists of experienced experts in the field of IoT who will
+          accomplish any of your complex project requirements.
+        </p>
+        <p>
           With more than 5 years of experience, your projects will be in our
           safe hands.
         </p>
