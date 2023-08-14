@@ -15,7 +15,7 @@ const Banner = () => (
         Put Your <span>IoT Projects</span> into Our Hands.
       </h1>
       <h3>
-        From personal to enterprise...
+        From personal to enterprise.
         <br />
         We complete them in no time.
       </h3>
