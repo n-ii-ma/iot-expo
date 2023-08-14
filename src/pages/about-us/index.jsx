@@ -8,7 +8,12 @@ const AboutUs = () => (
   <>
     <Meta title="About Us" description="About our company and services" />
     <section className={aboutUsStyles.container}>
-      <Image src="/images/about_us.jpg" fill alt="Smart devices network web" />
+      <Image
+        src="/images/about_us.jpg"
+        fill
+        quality={40}
+        alt="Smart devices network web"
+      />
       <article>
         <h1>
           We strive to turn your dreams into <span>reality</span>
