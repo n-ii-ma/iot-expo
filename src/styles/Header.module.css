@@ -12,6 +12,7 @@
     rgba(0, 0, 0, 0.9),
     rgba(1, 158, 255, 0.9)
   );
+  transition: var(--custom-animation);
   z-index: 100;
 }
 
