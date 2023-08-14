@@ -16,7 +16,8 @@ const Meta = ({ keywords, description, title }) => (
 Meta.defaultProps = {
   title: "IoT Expo",
   keywords: "internet of things, iot, ai, 5g, tech, technology, smart, robots",
-  description: "Explore Everything About IoT",
+  description:
+    "A website dedicated to completing personal and/or enterprise IoT projects",
 };
 
 export default Meta;
