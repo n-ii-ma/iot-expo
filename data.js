@@ -1,4 +1,4 @@
-const prices = [
+const priceData = [
   {
     id: 1,
     title: "Starter",
@@ -43,4 +43,4 @@ const prices = [
   },
 ];
 
-export default prices;
+export default priceData;
