@@ -8,7 +8,7 @@ const Meta = ({ keywords, description, title }) => (
     <meta name="robots" content="all" />
     <meta charSet="utf-8" />
     <link rel="icon" href="/images/favicon.ico" />
-    <title>{`IoT Expo | ${title}`}</title>
+    <title>{`${title} | IoT Expo`}</title>
     meta
   </Head>
 );
