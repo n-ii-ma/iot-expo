@@ -16,7 +16,7 @@
   width: 100%;
   height: auto;
   padding: 3em;
-  transition: var(--hover-animation);
+  transition: var(--custom-animation);
 }
 
 .container article {
@@ -86,6 +86,6 @@
 @media (hover: hover) {
   .container figure img:hover {
     transform: scale(1.1);
-    transition: var(--hover-animation);
+    transition: var(--custom-animation);
   }
 }

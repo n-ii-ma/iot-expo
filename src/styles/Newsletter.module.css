@@ -64,7 +64,7 @@
   color: black;
   font-size: 1rem;
   cursor: pointer;
-  transition: var(--hover-animation);
+  transition: var(--custom-animation);
 }
 
 /* Mobile */
@@ -118,6 +118,6 @@
 @media (hover: hover) {
   .inputContainer button:hover {
     background-color: var(--primary-color);
-    transition: var(--hover-animation);
+    transition: var(--custom-animation);
   }
 }

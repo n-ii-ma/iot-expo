@@ -124,7 +124,7 @@
   color: var(--primary-color);
   font-size: 1rem;
   cursor: pointer;
-  transition: var(--hover-animation);
+  transition: var(--custom-animation);
 }
 
 /* Mobile */
@@ -184,6 +184,6 @@
 @media (hover: hover) {
   .footer button:hover {
     background-color: var(--secondary-color);
-    transition: var(--hover-animation);
+    transition: var(--custom-animation);
   }
 }

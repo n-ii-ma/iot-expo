@@ -10,7 +10,7 @@
 
 .inactiveLink {
   color: var(--primary-color);
-  transition: var(--hover-animation);
+  transition: var(--custom-animation);
 }
 
 .activeLink {
@@ -41,6 +41,6 @@
   .inactiveLink:hover {
     transform: scale(1.1);
     color: var(--secondary-color);
-    transition: var(--hover-animation);
+    transition: var(--custom-animation);
   }
 }

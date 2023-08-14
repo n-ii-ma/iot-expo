@@ -20,7 +20,7 @@
   font-size: 3rem;
   color: var(--secondary-color);
   text-align: center;
-  transition: var(--hover-animation);
+  transition: var(--custom-animation);
 }
 
 .title span {
@@ -68,6 +68,6 @@
 @media (hover: hover) {
   .title:hover {
     transform: scale(1.1);
-    transition: var(--hover-animation);
+    transition: var(--custom-animation);
   }
 }
